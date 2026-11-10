@@ -1,0 +1,36 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Backups and local data
+backups/
+*.backup
+*.dump
+*.sqlite
+*.db
+
+# Virtual machines and disk images
+*.vdi
+*.vmdk
+*.vhd
+*.qcow2
+*.ova
+*.ovf
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Logs
+*.log
+logs/
